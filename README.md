@@ -5,7 +5,7 @@
 capabilities provided with MIDI message.
 Some examples "Play", "Cue", "Fast Forward", "Fader up", "Fader down" etc.
 
-- This is an algorithm that gets as input a playlist, predicts Points Of Interest
+- This is an algorithm that receives as input a playlist, predicts Points Of Interest
 of the songs included and generates the proper MIDI Messages.
 
 - The implementation was only created for usage with the Mixxx dj-software.
