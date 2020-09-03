@@ -12,5 +12,3 @@ print('DJ Performance...\n')
 dj_perform(playlist_name, relative_poi_csv)
 
 # End of Thesis
-
-
