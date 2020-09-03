@@ -1,0 +1,32 @@
+import os, time
+from rekordbox_util import RekordboxHandler
+
+dj = RekordboxHandler()
+dj.open_port()
+
+dj.load_track_on_deck(1)
+print('Loaded Track on Deck 1')
+time.sleep(2)
+dj.load_track_on_deck(2)
+print('Loaded Track on Deck 2')
+time.sleep(2)
+
+dj.load_track_on_deck(1)
+print('Loaded Track on Deck 1')
+time.sleep(2)
+dj.load_track_on_deck(2)
+print('Loaded Track on Deck 2')
+time.sleep(2)
+dj.load_track_on_deck(1)
+print('Loaded Track on Deck 1')
+time.sleep(2)
+dj.load_track_on_deck(2)
+print('Loaded Track on Deck 2')
+time.sleep(2)
+dj.load_track_on_deck(1)
+print('Loaded Track on Deck 1')
+time.sleep(2)
+dj.load_track_on_deck(2)
+print('Loaded Track on Deck 2')
+time.sleep(2)
+dj.close_port()
