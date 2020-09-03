@@ -10,3 +10,5 @@ csv_path = os_path_join(playlist_dir, playlist_name, relative_poi_csv)
 
 print('DJ Performance...\n')
 dj_perform(playlist_name, relative_poi_csv)
+
+# End of Thesis
